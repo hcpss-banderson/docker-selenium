@@ -11,7 +11,7 @@ RUN apk add --no-cache \
     jpeg-dev \
   && apk del .selenium_deps
 
-RUN pip install seleniumbase
+RUN pip install seleniumbase lorem
 RUN mkdir /app
 
 WORKDIR /app
